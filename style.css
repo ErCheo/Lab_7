@@ -1,0 +1,196 @@
+#top {
+    height: 10px; 
+    background-image: url(lab7/box-widget-bg-01.png); 
+    background-repeat: no-repeat; 
+    margin-top: 35px;
+}
+#middle {
+    padding: 20px 5px 5px 30px; 
+    background-image: url(lab7/box-widget-bg-02.png);
+    border-radius: 5px;
+}
+#bottom {
+    height: 15px; 
+    background-image: url(lab7/box-widget-bg-03.png); 
+    background-repeat: no-repeat;
+}
+span.name
+{
+    font-family: 'Cookie';
+    font-style: oblique;
+    float: left;
+    margin-right: 120px; 
+    font-size: 55px; 
+    width: 221px; 
+    height: 110px; 
+    background-image:url(lab7/logo-bg.png); 
+    background-repeat: no-repeat;
+    padding-top: 25px;
+    color: white;
+}
+.but {
+    font-size: 17px;
+    float: left;
+    width: 50px;
+    margin-right: 45px; 
+    height: 40px;
+    color: white;
+    cursor: pointer; 
+}
+#left{
+    float: left;
+    width: 15px;
+    height: 65px;
+    background-image: url(lab7/menu-active-bg-01.png);
+    background-repeat: no-repeat;
+}
+#curr{
+    float: left;
+    width: 50px;
+    height: 65px;
+    background-image: url(lab7/menu-active-bg-02.png);
+    background-repeat: repeat-x;
+}
+#right{
+    float: left;
+    width: 15px;
+    height: 65px;
+    margin-right: 30px;
+    background-image: url(lab7/menu-active-bg-03.png);
+    background-repeat: no-repeat;
+}
+#post {
+    height: 30px;
+    width: 280px;
+    text-align: left; 
+    align-items:baseline; 
+    display: block;
+    margin-top: 20px;
+    position: absolute;
+}
+#postbig {
+    height: 170px;
+    width: 493px;
+    border-radius: 3px;
+}
+#posttext{
+    text-align: left; 
+    align-items: baseline; 
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+#lorem
+{
+    font-family: 'Lato', sans-serif;
+    display: block; 
+    text-align: left; 
+    margin-left: 25px; 
+    font-size:30px;
+    padding-top: 30px;
+    color: #5e372c;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+#posttext2{
+    display: block; 
+    text-align: left; 
+    font-size: 12px;
+    width: 480px;
+    margin-left: 23px;
+    line-height: 20px;
+    color: #804b3d;
+}
+#lastpost
+{
+    height: 55px; 
+    width: 500px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-image: url(lab7/page-wrapper-bg.png);
+    border-radius: 5px;
+}
+#lasttext
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    float: left;
+    color: #804b3d;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-right: 200px;
+}
+#lasttext_style1
+{
+    cursor: pointer; 
+    text-decoration-line: underline;
+}
+#lasttext_style2 
+{
+    color: #804b3d; 
+    cursor: pointer; 
+    text-decoration-line: underline;
+    font-size: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    float: right;
+    margin-right: 8px;
+}
+#comm{
+    margin-top: auto;
+    margin-bottom: auto;
+    float: left;
+    color: #804b3d;
+    font-size: 15px;
+    margin-right: 15px;
+}
+#sb1, #sb2 {
+    height: 15px;
+    width: 300px;
+}
+#sbpost {
+    text-align: left; 
+    align-items:baseline; 
+    display: block;
+    position: absolute;
+    height: 30px;
+    width: 330px;
+    margin-top: 20px;
+}
+#sba {
+    width: 270px;
+    text-align: left; 
+    align-items: baseline; 
+    display: block;
+    position: absolute;
+    font-size: 13px;
+    margin: 55px 20px 20px 20px;
+    color: #d4ab9f;
+    line-height: 20px;
+}
+#rec {
+    width: 300px;
+    text-align: left; 
+    align-items:baseline; 
+    display: block;
+    position: absolute;
+    font-size: 14px;
+    margin: 10px 10px 20px 20px;
+    color: white;
+}
+#line {
+    text-align: left; 
+    align-items:baseline; 
+    display: block;
+    position: absolute;
+    width: 260px;
+    size: 3px;
+    color: #301c16;
+    margin: 70px 7px 20px 20px;
+}
