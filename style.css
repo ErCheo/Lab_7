@@ -5,7 +5,7 @@
     margin-top: 35px;
 }
 #middle {
-    padding: 20px 5px 5px 30px; 
+    padding: 20px 25px 1px 30px; 
     background-image: url(lab7/box-widget-bg-02.png);
     border-radius: 5px;
 }
@@ -17,23 +17,22 @@
 span.name
 {
     font-family: 'Cookie';
-    font-style: oblique;
     float: left;
-    margin-right: 120px; 
-    font-size: 55px; 
+    margin-right: 150px; 
+    font-size: 60px; 
     width: 221px; 
     height: 110px; 
-    background-image:url(lab7/logo-bg.png); 
+    background-image: url(lab7/logo-bg.png); 
     background-repeat: no-repeat;
     padding-top: 25px;
     color: white;
 }
 .but {
-    font-size: 17px;
+    font-size: 16px;
     float: left;
     width: 50px;
     margin-right: 45px; 
-    height: 40px;
+    height: 45px;
     color: white;
     cursor: pointer; 
 }
@@ -60,17 +59,17 @@ span.name
     background-repeat: no-repeat;
 }
 #post {
-    height: 30px;
+    height: 35px;
     width: 280px;
     text-align: left; 
-    align-items:baseline; 
+    align-items: baseline; 
     display: block;
-    margin-top: 20px;
+    margin-top: 35px;
     position: absolute;
 }
 #postbig {
-    height: 170px;
-    width: 493px;
+    height: 200px;
+    width: 550px;
     border-radius: 3px;
 }
 #posttext{
@@ -78,35 +77,38 @@ span.name
     align-items: baseline; 
     position: absolute;
     color: white;
-    font-size: 14px;
-    margin-top: 25px;
+    font-size: 15px;
+    margin-top: 45px;
     margin-left: 25px;
 }
 #lorem
 {
-    font-family: 'Lato', sans-serif;
+    font-family: Arvo;
     display: block; 
     text-align: left; 
     margin-left: 25px; 
     font-size:30px;
-    padding-top: 30px;
+    padding-top: 40px;
     color: #5e372c;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 15px;
 }
 #posttext2{
+    font-family: Arvo;
     display: block; 
     text-align: left; 
     font-size: 12px;
-    width: 480px;
+    width: 550px;
     margin-left: 23px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     line-height: 20px;
     color: #804b3d;
 }
 #lastpost
 {
     height: 55px; 
-    width: 500px; 
+    width: 550px; 
     margin-left: auto; 
     margin-right: auto; 
     text-align: center; 
@@ -123,7 +125,7 @@ span.name
     float: left;
     color: #804b3d;
     font-size: 15px;
-    margin-left: 15px;
+    margin-left: 5px;
     margin-right: 200px;
 }
 #lasttext_style1
@@ -164,25 +166,26 @@ span.name
     margin-top: 20px;
 }
 #sba {
-    width: 270px;
+    width: 250px;
     text-align: left; 
     align-items: baseline; 
     display: block;
     position: absolute;
-    font-size: 13px;
-    margin: 55px 20px 20px 20px;
+    font-size: 14px;
+    margin: 65px 20px 20px 30px;
     color: #d4ab9f;
     line-height: 20px;
 }
 #rec {
-    width: 300px;
+    width: 250px;
     text-align: left; 
-    align-items:baseline; 
+    align-items: baseline; 
     display: block;
     position: absolute;
     font-size: 14px;
-    margin: 10px 10px 20px 20px;
+    margin: 10px 20px 20px 30px;
     color: white;
+    cursor: pointer;
 }
 #line {
     text-align: left; 
